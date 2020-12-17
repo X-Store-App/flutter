@@ -1,17 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:xstore_mobile/src/views/parts/appbar.dart';
+import 'package:xstore_mobile/src/views/parts/drawer.dart';
 
-class Home extends StatefulWidget {
+class Main extends StatefulWidget {
   @override
-  State<StatefulWidget> createState() => _Home();
+  State<StatefulWidget> createState() => _Main();
 }
 
-class _Home extends State<StatefulWidget> {
+class _Main extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar,
       body: Column(),
+      drawer: drawer,
     );
   }
 }
