@@ -7,6 +7,7 @@ class MyApp extends StatelessWidget {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
       home: Home(),
+      title: "XStore Mobile",
     );
   }
 }
