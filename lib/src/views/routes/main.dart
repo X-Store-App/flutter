@@ -11,7 +11,7 @@ class _Main extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: appBar,
+      appBar: appBar(context),
       body: Column(),
       drawer: drawer,
     );
