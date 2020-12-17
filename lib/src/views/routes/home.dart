@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:xstore_mobile/src/views/parts/appbar.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -8,6 +9,9 @@ class Home extends StatefulWidget {
 class _Home extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
-    return Text("hola");
+    return Scaffold(
+      appBar: appBar,
+      body: Column(),
+    );
   }
 }
